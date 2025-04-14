@@ -1,0 +1,32 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.env
+.venv/
+ENV/
+
+# Large files and data
+*.csv
+*.pkl
+models/*.pkl
+creditcard.csv
+*.pdf
+
+# Runtime files
+api/monitoring_data.json
+.pytest_cache/
+.coverage
+htmlcov/
+logs/
+*.log
+*.db
+fraud_detection.db
+.docker/
+
+# OS files
+.DS_Store
+Thumbs.db
